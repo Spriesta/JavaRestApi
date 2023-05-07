@@ -25,7 +25,7 @@ public class Post {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Getter @Setter Long id;
 	
-	//Long userId; bunu table oluşturduktan sonra kaldırdık
+	//Long userId; //bunu table oluşturduktan sonra kaldırdık
 	
 	@Getter @Setter String title;
 	
